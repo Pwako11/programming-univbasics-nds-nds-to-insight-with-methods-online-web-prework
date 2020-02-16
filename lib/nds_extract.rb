@@ -1,16 +1,11 @@
 require 'directors_database'
 require 'pp'
-<<<<<<< HEAD
 require 'pry'
-=======
->>>>>>> bf2e9ab8a4aac7d54af7ab0417cdae2f392e577f
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
 #
 # { directorOne => allTheMoneyTheyMade, ... }
-
-<<<<<<< HEAD
 
 def gross_for_director(director_data)
   total = 0 
@@ -39,5 +34,4 @@ def directors_totals(nds)
 # # Find a way to accumulate the :worldwide_grosses and return that Integer
 # # using director_data as input
 # def gross_for_director(director_data)
->>>>>>> bf2e9ab8a4aac7d54af7ab0417cdae2f392e577f
 end
